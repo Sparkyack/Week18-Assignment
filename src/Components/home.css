@@ -1,0 +1,61 @@
+.home {
+  display: grid;
+
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#gridItem1 {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  justify-self: center;
+  align-self: center;
+}
+
+#welcome {
+  grid-column: 2/4;
+  grid-row: 1/1;
+  text-align: center;
+  font-size: 50px;
+}
+
+#gridItem3 {
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem4 {
+  grid-column: 4/4;
+  grid-row: 1/1;
+  justify-self: center;
+  align-self: center;
+}
+
+#teampic {
+  grid-column: 2/4;
+  grid-row: 2;
+}
+
+#gridItem5 {
+  grid-column: 1;
+  grid-row: 2/2;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid blue;
+}
+
+#gridItem6 {
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem8 {
+  justify-self: center;
+  align-self: center;
+}
+
+#gridItem9 {
+  justify-self: center;
+  align-self: center;
+}

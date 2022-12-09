@@ -1,0 +1,20 @@
+.title {
+  text-align: center;
+}
+
+.text-center {
+  padding: 50px;
+  margin-left: 35%;
+  margin-top: 0%;
+  border: 50px;
+}
+
+body {
+  background-color: rgba(253, 253, 253, 0.877);
+  border: 10px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border-style: double;
+  /* background-image:  url("https://pbs.twimg.com/profile_images/1207488237922586624/nitIY6ux_400x400.jpg"); */
+}
